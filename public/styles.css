@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    /* float: left; */
+    display: flex;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .image {
+    background-image: url('https://picsum.photos/200/300?random=2');
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+  .img1 {
+    background-image: url('https://i.picsum.photos/id/716/200/300.jpg?hmac=qbNS_afUKsp_nyvuAAcK8T7OxOtMoqJvLIeaK-jirsU');
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+  .image2 {
+    background-image: url('https://i.picsum.photos/id/255/536/354.jpg?hmac=e1h_noa1k45G9fb1B6ihxqfbEqpJ6QOH5p7KnT5quPE');
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+  h1 {
+      text-align: center;
+  }
+  p {
+      font-size: large;
+  }
+
+  h2 {
+    text-align: center;
+    color: red;
+  }
